@@ -1,2 +1,23 @@
-# student-registration-system-fastapi-react
-A full-stack Student Registration System built with React.js for the frontend and FastAPI for the backend. It includes features like login, sign-up, student form submission, and view registrations
+# Student Registration System (React + FastAPI)
+
+A full-stack web application for student registration and authentication. This system allows users to sign in, register students with detailed forms, and view all registered student data.
+
+## 🧑‍💻 Tech Stack
+
+### Frontend
+- React.js
+- React Router DOM
+- HTML5, CSS3
+- JavaScript
+
+### Backend
+- Python 3.x
+- FastAPI
+- Uvicorn (ASGI Server)
+- Pydantic
+- SQLModel or SQLAlchemy (for database)
+
+### Database
+- SQLite (dev) / PostgreSQL (prod optional)
+
+
