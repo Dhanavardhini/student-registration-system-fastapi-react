@@ -4,20 +4,22 @@ A full-stack web application for student registration and authentication. This s
 
 ## 🧑‍💻 Tech Stack
 
-### Frontend
-- React.js
-- React Router DOM
-- HTML5, CSS3
-- JavaScript
+- **Frontend**: React.js, React Router
+- **Backend**: FastAPI, Python
+- **Database**: MySQL (XAMPP)
+- **Server**: Uvicorn
 
-### Backend
-- Python 3.x
-- FastAPI
-- Uvicorn (ASGI Server)
-- Pydantic
-- SQLModel or SQLAlchemy (for database)
+## 🔧 Setup Instructions
 
-### Database
-- SQLite (dev) / PostgreSQL (prod optional)
+### 1. Start MySQL Server
+- Open **XAMPP Control Panel**
+- Start the **MySQL** module
+- Create a database (e.g., `student_db`) via **phpMyAdmin**
+
+### 2. Backend (FastAPI)
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
 
 
